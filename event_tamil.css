@@ -1,0 +1,566 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 15px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    min-height: 70px;
+    background-color: #31212f;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.name{
+    padding-left: 20px;
+    padding-top: 25px;
+    font-style:oblique;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -30px;
+}
+.middle .name{
+    margin-left: 50px;
+}
+.middle .sav{
+    font-size: 46px;
+}
+.middle .finance{
+    font-size: 35px;
+}
+
+.name .logo-img {
+  height: 80px;
+  width: 70px;
+}
+
+.logo-text {
+  margin: 0;
+  font-style: italic;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+.logo-text .sav{
+    font-size: 30px;
+}
+.logo-text .finance{
+    font-size: 20px;
+}
+.sav {
+  color: yellow;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.finance {
+  color: rgb(224, 216, 185);
+  font-size: 28px;
+  margin-right: 30px;
+}
+
+.subhead{
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.one{
+    padding-right: 28px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-left: -10px;
+}
+
+.one1{
+    padding-right: 0px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #c06e87;
+    margin-right: 40px;
+}
+
+.one:hover{
+    text-decoration: underline;
+    color: #c06e87;
+}
+
+.box{
+    height: 500px;
+    width: 400px;
+    background-color:#31212f;
+}
+
+.middle {
+  position: relative; 
+  display: flex;
+}
+
+.middle img {
+  display: block;
+  height: 585px;
+}
+
+.box {
+  position: absolute;
+  top: 20%; 
+  left: 53%; 
+  background-color: #31212f; 
+  opacity: 0.8;
+  color:white;
+  padding: 30px;
+  width: 530px;
+  height: 280px;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.sav{
+    color: yellow;
+}
+.finance{
+    color:white;
+}
+.box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 16px;
+}
+
+.logo{
+    display: flex;
+    margin-left: 20px;
+}
+.logo-img {
+  height: 80px;
+  width: 60px;
+  margin-left: -20px;
+  margin-top: 4px;
+}
+.name .logo1-img {
+  height: 120px;
+  width: 70px;
+}
+
+.name .sav{
+    margin-left: -6px;
+    margin-top: 5px;
+}
+.middle .mobile-img {
+    display: none;
+}
+
+.bike{
+    font-style: italic;
+    font-size: 60px;
+    padding-left: 40px;
+    color:yellow;
+}
+
+.bike2{
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 7px;
+    margin-left: 12px;
+    color:rgb(224, 216, 185);
+}
+
+.box .trust{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px; 
+}
+
+.mon{
+    display: flex;
+    color: #000;
+}
+
+.box .mon1 {
+    padding-right: 35px;
+    margin-top: 40px;
+    font-size: 15px;
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #c06e87;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.box .mon2  {
+    padding-right: 35px;
+    margin-top: 20px;
+    font-size: 15px;
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #c06e87;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.box .mon3 {
+    padding-right: 35px;
+    margin-top: 20px;
+    font-size: 15px;
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #c06e87;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.mon1 { margin-top: 40px; }
+.mon2 { margin-top: 20px; }
+.mon3 { margin-top: 20px; }
+
+.btn button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+.navbar{
+    display: none;
+}
+.btn button:hover {
+  background-color: white;
+  color: black;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+.topbar {
+  display: flex;
+  justify-content: flex-end;   /* aligns both on the right side */
+  align-items: center;         /* vertically centers them */
+  padding: 10px 20px;
+  height: 70px;                /* fixed header height for consistent centering */
+  background-color: transparent;
+  position: relative;
+  z-index: 100;
+}
+
+.navbar i {
+  font-size: 25px;
+  margin-top: 7px;
+  color: white;
+  cursor: pointer;
+}
+
+.button button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.side{
+    background-color: #1d232c;
+    width: 50%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    left: -70%;
+    padding: 20px;
+    color: white;
+    font-size: 20px; 
+    transition: 1s; 
+    z-index: 9999; 
+}
+.head {
+    min-width: 0;
+}
+.name {
+    min-width: 0;
+    flex-shrink: 1;
+}
+.logo-text {
+    flex-shrink: 1;
+}
+.logo-img {
+    max-width: 48px;
+    height: auto;
+    flex-shrink: 0;
+}
+.right-items {
+    min-width: 0;
+    display: flex;
+    gap: 5px;
+}
+
+label{
+    display: flex;
+    justify-content: end;
+}
+
+/* Side menu links repeated for sidesubhead1-6 */
+.sidesubhead1, .sidesubhead2, .sidesubhead3, .sidesubhead4, .sidesubhead5, .sidesubhead6{
+    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.sidesubhead1 a, .sidesubhead2 a, .sidesubhead3 a, .sidesubhead4 a, .sidesubhead5 a, .sidesubhead6 a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidesubhead1 a:hover, .sidesubhead2 a:hover, .sidesubhead3 a:hover, .sidesubhead4 a:hover, .sidesubhead5 a:hover, .sidesubhead6 a:hover{
+    text-decoration: underline;
+}
+
+/* ---------- BOX .NAME & LOGO1-IMG FIX ---------- */
+.box .name {
+    display: flex;
+    align-items: center;       /* vertical alignment */
+    justify-content: center;   /* horizontal center */
+    gap: 10px;                 /* space between logo and text */
+    flex-wrap: wrap;           /* allows text wrap on small screens */
+}
+.btn2 {
+    flex-shrink: 1;
+    max-width: 65px;
+    min-width: 0;
+}
+
+.logo1-img {
+    max-height: 80px;   /* limits the logo height */
+    width: 50px;
+    margin-left: -60px;
+    margin-top: -5px    ;
+}
+
+/* ---------- RESPONSIVE STYLES ---------- */
+@media screen and (max-width:768px){
+    .subhead{
+        display: none;
+    }
+    .middle {
+    height: 100vh;          /* full phone height */
+    width: 100%;
+    overflow: hidden;       /* hide anything outside */
+}
+    .middle .hii {
+        display: none;
+    }
+
+    .middle .mobile-img {
+        display: block;
+        width: 100%;
+       height: 100vh;
+}
+.middle img {
+    width: 100%;
+    height: 100vh;
+    margin-top: -80px;
+    object-fit: cover;      /* fills both width + height */
+    object-position: center;
+}
+    .box {
+        position: absolute;
+        top: 72%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #31212f;
+        opacity: 0.8;
+        color: white;
+        padding: 5vw;
+        width: 90%;
+        max-width: 400px;
+        border-radius: 20px;
+        text-align: center;
+        height: 230px;
+        opacity: 1;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+        margin-top: 5px;
+    }
+
+    .bike {
+        font-style: italic;
+        font-size: 8vw;
+        color: yellow;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bike2 {
+        font-style: italic;
+        font-size: 6vw;
+        color: rgb(224, 216, 185);
+        margin: 0;
+        padding: 0;
+    }
+
+    .trust {
+        font-size: 3.5vw;
+        color: white;
+        text-align: center;
+        margin-top: 8px;
+        margin-left:-10px;
+        margin-bottom: 15px;
+    }
+
+    .mon{
+        display: flex;
+        color: #000;
+    }
+
+    .mon1, .mon2, .mon3 {
+        padding-right: 35px;
+        margin-top: 10px;
+        height: 20px;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .box .mon1, .box .mon2, .box .mon3 {
+        width: 90%;             /* scale with box width */
+        font-size: 3vw;         /* font scales with screen width */
+        padding: 5px 0;         /* reduce padding for small screens */
+        margin: 10px auto;      /* center inside box */
+        height: auto;           /* auto-adjust height */
+    }
+
+    .name{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        padding-left: 5px;
+    }
+    .middle .name{
+        margin-left: 3px;
+    }
+
+    .logo-img {
+        height: 60px;
+        width: 55px;
+        margin-left:-20pxpx ;
+    }
+    .logo-text1 .sav {
+        font-size: 6.5vw;
+        margin-left: -4px;
+    }
+    .logo-text1 .finance {
+        font-size: 5.5vw;
+        margin-left: -4px;
+    }
+    .sav {
+        font-size: 6vw;
+        margin-left: -4px;
+    }
+
+    .finance {
+        font-size: 4.0vw;
+    }
+
+    .logo-text {
+        flex-wrap: nowrap;
+        margin-left: -10px;
+    }
+    .logo-text .sav{
+        font-size: 20px;
+    }
+    .logo-text .finance{
+        font-size: 15px;
+    }
+
+    /* Responsive logo1-img */
+    .name .logo1-img {
+        max-height: 70px;  /* smaller logo on mobile */
+        max-width: 50px;
+        margin-left: 1px;
+        margin-top: 0px;
+    }
+    .navbar i{
+        font-size: 15px;
+    }
+
+    .box .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+    .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+        padding: 10px 15px;
+    }
+
+    .navbar {
+        display: block;
+        font-size: 4vw;
+        color: white;
+        cursor: pointer;
+    }
+
+    .button button {
+        background-color: white;
+        color: black;
+        padding: 5px 10px;
+        padding-bottom: -10px;
+        border-radius: 2px;
+        font-size: 3.5vw;
+        cursor: pointer;
+        margin-left: -20px;
+    }
+
+    .button a {
+        text-decoration: none;
+        color: inherit;
+    }
+}

@@ -1,0 +1,539 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 15px;
+}
+
+.head{
+    display: flex;
+    background-color:#31212f;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.logo-text1 .sav{
+    font-size: 32px;
+}
+.logo-text1 .finance{
+    font-size: 14px;
+}
+
+.name{
+    padding-left: 20px;
+    padding-top: 25px;
+    font-style:oblique;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -30px;
+}
+.box .name{
+    padding-left: 40px;
+    padding-top: 25px;
+    font-style:oblique;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -30px;
+}
+
+.logo-img {
+  height: 80px;
+  width: 80px;
+  margin-left: -40px;
+  margin-top: 4px;
+}
+
+.logo-text {
+  font-style: italic;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-left: -15px;
+}
+
+.sav {
+  color:#F4EED7;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.finance {
+  color: rgb(224, 216, 185);
+  font-size: 28px;
+}
+
+.subhead{
+    padding-right: 20px;
+    padding-top: 15px;
+    margin-left: 150px;
+}
+
+.one{
+    padding-right: 28px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-left: -10px;
+}
+.one2{
+    padding-right: 28px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-left: -10px;
+}
+.one3{
+    padding-right: 28px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-left: -200px;
+}
+.one1{
+    padding-right: 0px;
+    font-size: 17px;
+    text-decoration: none;
+    color:#c06e87 ;
+    margin-right: 40px;
+}
+
+.one:hover{
+    text-decoration: underline;
+    color: #c06e87;
+}
+.one2:hover{
+    text-decoration: underline;
+    color: #c06e87;
+}
+
+.box{
+    height: 500px;
+    width: 400px;
+    background-color:#d2975b;
+}
+
+.middle {
+  position: relative; 
+  display: flex;
+}
+
+.middle img {
+  display: block;
+  height: 585px;
+}
+.logo-text .sav{
+    font-size: 41px;
+}
+.logo-text .finance{
+    font-size: 25px;
+}
+.logo-text1 .finance{
+    font-size: 35px;
+}
+.logo-text1 .sav{
+    font-size: 45px;
+}
+
+.box {
+  position: absolute;
+  top: 20%; 
+  left: 53%; 
+  background-color: #31212f; 
+  color:white;
+  padding: 30px;
+  width: 530px;
+  height: 300px;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 16px;
+}
+
+.logo{
+    display: flex;
+    margin-left: 20px;
+}
+
+.bike{
+    font-style: italic;
+    font-size: 60px;
+    padding-left: 40px;
+    color:yellow;
+}
+
+.bike2{
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 7px;
+    margin-left: 12px;
+    color:rgb(224, 216, 185);
+}
+
+.box .trust{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px; 
+    color: yellow;
+}
+
+.mon{
+    display: flex;
+    color: white;
+}
+
+.box .mon1 {
+    padding-right: 35px;
+    margin-top: 40px;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #c06e87;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.box .mon2  {
+    padding-right: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #c06e87;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.box .mon3 {
+    padding-right: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #c06e87;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.mon1 { margin-top: 40px; }
+.mon2 { margin-top: 20px; }
+.mon3 { margin-top: 20px; }
+
+.btn button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.btn button:hover {
+  background-color: white;
+  color: black;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+
+.middle .mobile-img {
+    display: none;
+}
+
+.navbar i {
+  font-size: 20px;
+  margin-top: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.button button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.sav{
+    color: yellow;
+}
+.finance{
+    color:white;
+}
+
+.button a {
+  text-decoration: none;
+  color: inherit;
+}
+.side{
+    background-color: #1d232c;
+    width: 50%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    left: -70%;
+    padding: 20px;
+    color: white;
+    font-size: 20px; 
+    transition: 1s; 
+    z-index: 9999; 
+}
+.navbar{
+    display: none;
+}
+.right-items .btn2{
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+label{
+    display: flex;
+    justify-content: end;
+}
+
+/* Side menu links repeated for sidesubhead1-6 */
+.sidesubhead2, .sidesubhead3, .sidesubhead4, .sidesubhead5, .sidesubhead6{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.sidesubhead1{
+    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.sidesubhead1 a, .sidesubhead2 a, .sidesubhead3 a, .sidesubhead4 a, .sidesubhead5 a, .sidesubhead6 a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidesubhead1 a:hover, .sidesubhead2 a:hover, .sidesubhead3 a:hover, .sidesubhead4 a:hover, .sidesubhead5 a:hover, .sidesubhead6 a:hover{
+    text-decoration: underline;
+}
+
+/* ---------- BOX .NAME & LOGO1-IMG FIX ---------- */
+.box .name {
+    display: flex;
+    align-items: center;       /* vertical alignment */
+    justify-content: center;   /* horizontal center */
+    gap: 10px;                 /* space between logo and text */
+    flex-wrap: wrap;           /* allows text wrap on small screens */
+}
+.right-items {
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    gap: 15px;
+    padding-right: 40px;     /* space between button & bar icon */  /* pushes them to right */
+}
+
+.logo1-img {
+    max-height: 90px;   /* limits the logo height */
+    width: 70px;
+    margin-left: -60px;
+}
+
+.name .sav{
+    margin-left: -6px;
+    margin-top: 5px;
+}
+/* ---------- RESPONSIVE STYLES ---------- */
+@media screen and (max-width:768px){
+    .subhead{
+        display: none;
+    }
+    .middle {
+    height: 100vh;          /* full phone height */
+    width: 100%;
+    overflow: hidden;       /* hide anything outside */
+}
+    .middle .hii {
+        display: none;
+    }
+    .right-items .btn2{
+        margin-left: 42px;
+        margin-top: 2px;
+    }
+    .middle .mobile-img {
+        display: block;
+        width: 100%;
+       height: 100vh;
+}
+.navbar i{
+    font-size: 15px;
+}
+
+.middle img {
+    width: 100%;
+    height: 100vh;
+    margin-top: -80px;
+    object-fit: cover;      /* fills both width + height */
+    object-position: center;
+}
+    .box {
+        position: absolute;
+        top: 72%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #31212f;
+        opacity: 0.8;
+        color: white;
+        padding: 5vw;
+        width: 90%;
+        max-width: 400px;
+        border-radius: 20px;
+        text-align: center;
+        height: 250px;
+        opacity: 1;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+        margin-top: 5px;
+    }
+
+    .bike {
+        font-style: italic;
+        font-size: 8vw;
+        color: yellow;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bike2 {
+        font-style: italic;
+        font-size: 6vw;
+        color: rgb(224, 216, 185);
+        margin: 0;
+        padding: 0;
+    }
+
+    .trust {
+        font-size: 3.5vw;
+        color: white;
+        text-align: center;
+        margin-top: 8px;
+        margin-left:-10px;
+        margin-bottom: 15px;
+    }
+
+    .mon{
+        display: flex;
+        color: #000;
+    }
+
+    .mon1, .mon2, .mon3 {
+        padding-right: 35px;
+        margin-top: 10px;
+        height: 30px;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .box .mon1, .box .mon2, .box .mon3 {
+        width: 90%;             /* scale with box width */
+        font-size: 4vw;         /* font scales with screen width */
+        padding: 5px 0;         /* reduce padding for small screens */
+        margin: 10px auto;      /* center inside box */
+        height: 20px; 
+        display: flex;
+        justify-content: center;
+        text-align: center;  
+        margin-left: 10px;        /* auto-adjust height */
+    }
+
+    .name{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        padding-left: 5px;
+    }
+    .middle .name{
+        margin-left: 3px;
+    }
+
+    .logo-img {
+        height: 60px;
+        width: 55px;
+        margin-left:-26px ;
+    }
+
+    .sav {
+        font-size: 6vw;
+        margin-left: -4px;
+    }
+
+    .finance {
+        font-size: 4.0vw;
+    }
+
+    .logo-text {
+        flex-wrap: nowrap;
+        margin-left: -10px;
+    }
+    .logo-text .sav{
+        font-size: 20px;
+    }
+    .logo-text .finance{
+        font-size: 15px;
+    }
+
+    /* Responsive logo1-img */
+    
+    .box .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+    
+
+    .navbar {
+        display: block;
+        font-size: 2vw;
+        color: white;
+        cursor: pointer;
+        margin-left: -10px;
+    }
+}

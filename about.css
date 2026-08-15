@@ -1,0 +1,614 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 15px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background-color:#31212f;
+    color: white;
+    position: fixed;
+    top: 0;            
+    left: 0;           
+    width: 100%;     
+    z-index: 1000; 
+}
+.name{
+    padding-left: 20px;
+    padding-top: 25px;
+    font-style:oblique;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -30px;
+}
+.logo-img {
+  height: 80px;
+  width: 60px;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+
+.logo-text {
+  margin-top: 9px;
+  margin-left: -10px;
+  font-style: italic;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.sav {
+  color: yellow;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.finance {
+  color: white;
+  font-size: 28px;
+}
+.subhead{
+    padding-right: 20px;
+    padding-top: 35px;
+    margin-left: 280px;
+}
+.one{
+    padding-right: 28px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;   
+}
+.one1{
+    padding-right: 28px;
+    font-size: 17px;
+    text-decoration: underline;
+}
+.one1{
+    padding-right: 28px;
+    margin-left: -30px;
+    font-size: 17px;
+    text-decoration: underline;
+    color: #c06e87;    
+}
+.one:hover{
+    text-decoration: underline;
+    color: #c06e87;
+}
+.return{
+    font-size: 25px;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.return1{
+    text-decoration: none;
+    color: black;
+    margin-left: 6px;
+    font-weight:500;
+}
+.return1:hover{
+    text-decoration: underline;
+    color: #583512;
+}
+.about{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: rgb(93, 37, 27);
+    font-size: 50px;
+    font-weight: bolder;
+}
+.topic1{
+    height: 120px;
+    width: 500px;
+    background-image: url(topic2.jpg);
+    padding: 30px;
+    margin-left: 40px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.header1{
+    font-size: 28px;
+    color: white;
+    display: flex;
+}
+.para1{
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+i{
+    font-size: 20px;
+    padding-right: 8px;
+    margin-top: 5px;
+}
+.topic2{
+    height: 120px;
+    width: 500px;
+    background-image: url(topic3.jpg);
+    padding: 30px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.header2{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    margin-top: -6px;
+}
+.para2{
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+.topic3{
+    height: 100px;
+    width: 500px;
+    background-image: url(topic4.webp);
+    padding: 30px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.header3{
+    font-size: 28px;
+    color: white;
+    display: flex;
+}
+.para3{
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+.topic4{
+    height: 120px;
+    width: 500px;
+    background-image: url(topic11.jpg);
+    padding: 30px;
+    margin-left: 660px;
+    margin-top: -570px;
+    border-radius: 15px;
+}
+.header4{
+    font-size: 28px;
+    color: white;
+    display: flex;
+}
+.para4{
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+.high{
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+.topic5{
+    height: 120px;
+    width: 500px;
+    background-image: url(topic5.jpg);
+    padding: 30px;
+    margin-left: 660px;
+    margin-top: 22px;
+    border-radius: 15px;
+}
+.header5{
+    font-size: 28px;
+    color: white;
+    display: flex;
+    margin-top: -8px;
+}
+.para5{
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+.topic6{
+    height: 100px;
+    width: 500px;
+    background-image: url(topic9.jpg);
+    padding: 30px;
+    margin-left: 660px;
+    margin-top: 28px;
+    border-radius: 15px;
+}
+.header6{
+    font-size: 28px;
+    color: white;
+    display: flex;
+    margin-top: -8px;
+}
+.para6{
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+.navbar{
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
+.side{
+    background-color: #1d232c;
+    width: 50%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    left: -70%;
+    padding: 20px;
+    color: white;
+    font-size: 20px; 
+    transition:1s; 
+    z-index: 9999; 
+}
+label{
+    display: flex;
+    justify-content: end;
+}
+.sidesubhead1{
+    margin-bottom: 25px;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead1 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead1 a:hover{
+    text-decoration: underline;
+}
+.sidesubhead2{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead2 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead2 a:hover{
+    text-decoration: underline;
+}
+.sidesubhead3{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead3 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead3 a:hover{
+    text-decoration: underline;
+}
+.sidesubhead4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead4 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead4 a:hover{
+    text-decoration: underline;
+}
+.sidesubhead5{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead5 a{
+    color: white;
+    text-decoration: none;
+}
+.right-items {
+    margin-left: auto; /* pushes navbar to absolute right */
+    display: flex;
+    align-items: center;
+    padding-right: 20px; /* distance from right edge */
+}
+.sidesubhead5 a:hover{
+    text-decoration: underline;
+}
+.sidesubhead6{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead6 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead6 a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:768px){
+    .navbar{
+        display: block;
+    }
+    .subhead{
+        display: none;
+    }
+    .about{
+        margin-left: 30px;
+        margin-top: 70px;
+    } 
+    .right-items {
+    padding-right: 10px;
+}
+    .topic1{
+    height: 200px;
+    width: 400px;
+    background-image: url(topic2.jpg);
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.header1{
+    font-size: 28px;
+    color: white;
+    display: flex;
+}
+.para1{
+    margin-top: 22px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+i{
+    font-size: 20px;
+    padding-right: 8px;
+    margin-top: 7px;
+}
+.topic2{
+    height: 180px;
+    width: 380px;
+    background-image: url(topic3.jpg);
+    padding: 30px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.header2{
+    font-size: 28px;
+    color: white;
+    display: flex;
+    margin-top: -8px;
+}
+.para2{
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 0px;
+}
+.topic3{
+    height: 100px;
+    width: 380px;
+    background-image: url(topic4.webp);
+    padding: 30px;
+    margin-left: 0px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.header3{
+    font-size: 28px;
+    color: white;
+    display: flex;
+}
+.para3{
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+.navbar i{
+    font-size: 20px;
+}
+.topic4{
+    height: 150px;
+    width: 380px;
+    background-image: url(topic11.jpg);
+    padding: 30px;
+    margin-left: 0px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.header4{
+    font-size: 28px;
+    color: white;
+    display: flex;
+}
+.para4{
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+.topic5{
+    height: 180px;
+    width: 380px;
+    background-image: url(topic5.jpg);
+    padding: 30px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.header5{
+    font-size: 28px;
+    color: white;
+    display: flex;
+    margin-top: -8px;
+}
+.para5{
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 0px;
+}
+.topic6{
+    height: 100px;
+    width: 380px;
+    background-image: url(topic9.jpg);
+    padding: 30px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.header6{
+    font-size: 28px;
+    color: white;
+    display: flex;
+    margin-top: -8px;
+}
+.para6{
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 0px;
+}
+.sections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    padding: 20px 12px 20px 10px;  /* ✅ small right padding added */
+    box-sizing: border-box;
+}
+
+.sections > div {
+    width: 100%;
+    height: fit-content;
+    max-width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+.navbar i{
+    margin-left: 100px;
+}
+.sidesubhead1 .two1{
+    text-decoration: underline;
+}
+.name .logo-img{
+    margin-left: -25px;
+    height: 100px;
+    width: 70px;
+}
+.logo-text .sav{
+    font-size: 25px;
+}
+.logo-text .finance{
+    font-size: 20px;
+}
+}
+@media (max-width: 310px){
+    .head{
+        flex-direction: row;      /* Keep row, do not stack */
+        padding: 5px 10px;        /* Smaller padding */
+        gap: 5px;
+    }
+    .logo-text1 .sav{
+        font-size: 22px;
+    }
+    .logo-text1 .finance{
+        font-size: 11px;
+    }
+    .head img{
+        width: 35px;              /* Reduce logo size */
+    }
+}
+@media (max-width: 420px){
+
+    .head{
+        height: 70px;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .name{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .name .logo-img{
+        width: 70px;
+        height: 100px;
+        margin-left: -20px;
+        margin-top: 0;
+    }
+
+    .logo-text{
+        margin-top: 0;
+        margin-left: -17px;
+        display: flex;
+        flex-direction: row;
+        line-height: 1;
+    }
+
+    .sav{
+        font-size: 25px !important;
+    }
+
+    .finance{
+        font-size: 20px !important;
+    }
+
+    .right-items{
+        padding-right: 10px;
+    }
+
+    .navbar{
+        display: block;
+        font-size: 26px;
+        margin-left: auto; /* Push to right */
+    }
+
+    .navbar i{
+        margin: 0;
+    }
+
+    /* adjust return area */
+    .return{
+        margin-top: 110px;
+    }
+}

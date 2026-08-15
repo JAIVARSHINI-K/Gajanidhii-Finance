@@ -1,0 +1,358 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 15px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background-color:#583512;
+    color: white;
+}
+.name{
+    padding-left: 20px;
+    padding-top: 25px;
+    font-style:oblique;
+}
+.subhead{
+    padding-right: 20px;
+    padding-top: 35px;
+}
+.one{
+    padding-right: 28px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.one1{
+    padding-right: 28px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.one:hover{
+    text-decoration: underline;
+    color: #d2975b;
+}
+.box{
+    height: 500px;
+    width: 400px;
+    background-color:#d2975b;
+}
+.middle {
+  position: relative; 
+  display: flex;
+}
+.middle img {
+  display: block;
+}
+.box {
+  position: absolute;
+  top: 20%; 
+  left: 53%; 
+  background-color: rgba(94, 57, 21, 0.8); 
+  color:white;
+  padding: 30px;
+  width: 530px;
+  height: 350px;
+  border-radius: 20px;
+}
+.box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.box p {
+  font-size: 16px;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+}
+.bike{
+    font-style: italic;
+    font-size: 60px;
+    padding-left: 40px;
+    color:yellow;
+}
+.bike2{
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 7px;
+    margin-left: 12px;
+    color:rgb(224, 216, 185);
+}
+.trust{
+    margin-top: 10px;
+    margin-left: 160px;  
+    font-size: 95px;
+}
+.mon{
+    display: flex;
+    color: #000;
+}
+.mon1 {
+    padding-right: 35px;
+    margin-top:40px;
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    border-radius: 10px;
+}
+.mon2 {
+    padding-right: 35px;
+    margin-top:20px;
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    border-radius: 10px;
+}
+.mon3{
+    padding-right: 35px;
+    margin-top:20px;
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    border-radius: 10px;
+}
+.btn1{
+    padding: 5px;
+    margin-top: 25px;
+    font-size: 20px;
+    height: 49px;
+    text-decoration: underline;
+}
+.btn2{
+    padding: 5px;
+    font-size: 20px;
+    margin-right:20px;
+    height: 47px;
+    margin-top: 10px;
+}
+.btn2:hover{
+    text-decoration: underline;
+}
+.btn2 a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar{
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 30px;
+    display: none;
+}
+.side{
+    background-color: #1d232c;
+    width: 50%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    font-size: 20px; 
+    transition: 2s; 
+    z-index: 9999; 
+}
+label{
+    display: flex;
+    justify-content: end;
+}
+.sidesubhead1{
+    margin-bottom: 25px;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead1 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead1 a:hover{
+    text-decoration: underline;
+}
+.sidesubhead2{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead2 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead2 a:hover{
+    text-decoration: underline;
+}
+.sidesubhead3{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead3 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead3 a:hover{
+    text-decoration: underline;
+}
+.sidesubhead4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead4 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead4 a:hover{
+    text-decoration: underline;
+}
+.sidesubhead5{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead5 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead5 a:hover{
+    text-decoration: underline;
+}
+.sidesubhead6{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sidesubhead6 a{
+    color: white;
+    text-decoration: none;
+}
+.sidesubhead6 a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:600px){
+    .navbar{
+        display: block;
+    }
+    .subhead{
+        display: none;
+    }
+    .btn1{
+    padding: 2px;
+    margin-top: 30px;
+    font-size: 10px;
+    height: 30px;
+    text-decoration: underline;
+    }
+    .btn2{
+    padding: 2px;
+    font-size: 10px;
+    height: 29px;
+    margin-top: 20px;
+    }
+    .btn{
+        margin-left: 60px;
+    }
+    .middle img{
+        height: 570px;
+        width: 477px;
+    }
+    .box {
+        position: absolute;
+        top: 45%; 
+        left: 3%; 
+        background-color: rgba(94, 57, 21, 0.8); 
+        color:white;
+        padding: 30px;
+        width: 390px;
+        height: 230px;
+        border-radius: 20px;
+    }
+    .bike{
+    font-style: italic;
+    font-size: 40px;
+    padding-left: 40px;
+    color:yellow;
+    }
+    .bike2{
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 7px;
+    margin-left: 7px;
+    color:rgb(224, 216, 185);
+    }
+    .trust{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 10px;  
+    }
+    .mon{
+        display: flex;
+        color: #000;
+    }
+    .mon1 {
+        padding-right: 35px;
+        margin-top:15px;
+        height: 20px;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        border: 1px;
+        border-radius: 10px;
+    }
+    .mon2 {
+        padding-right: 35px;
+        margin-top:20px;
+        height: 20px;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        border: 1px;
+        border-radius: 10px;
+    }
+    .mon3{
+        padding-right: 35px;
+        margin-top:20px;
+        height: 20px;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        border: 1px;
+        border-radius: 10px;
+    }
+    }
+
+
+
